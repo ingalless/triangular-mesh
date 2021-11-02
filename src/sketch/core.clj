@@ -4,8 +4,8 @@
             [quil.middleware :as m]))
 
 (q/defsketch sketch
-  :title "You spin my circle right round"
-  :size [3440 1440]
+  :title "Triangular Mesh"
+  :size [500 500]
   :draw dynamic/draw
   :features [:keep-on-top])
 
